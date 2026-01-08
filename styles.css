@@ -1,48 +1,185 @@
-*{margin: 0;
-        padding: 0;}
-        body {
-            margin: 0;
-            background-color: #0A1609;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-        }
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
 
-        .navbar{
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            background-color: #ffffff;
-            padding: 15px;
-            margin-bottom: 30px;
-        }
-        
-        .navbar a{
-            text-decoration: none;
-            color:#27AE60;
-            font-size: 18px;
-            font-weight: bold;
-        }
-        .navbar a:hover{
-            color: #A3E4D7;
-        }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-        h1 {
-            color: #27AE60;
-            font-size: 100px;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-            font-weight: 100;
-            margin-bottom: 20px;
-        }
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
 
-        p {
-            font-size: 18px;
-            width: 70%;
-            margin: auto;
-            margin-top: 5px;
-            color: #E2F5E6;
-        }
+/* Header */
+.header {
+    background: #ffffff;
+    padding: 20px 0;
+    border-bottom: 2px solid #2d5a27;
+}
 
-        img {
-            margin-top: 20px;
-        }
+.logo-text {
+    float: left;
+    color: #2d5a27;
+}
+
+.nav {
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Banner Section */
+.banner {
+    background: #e9f5e9;
+    padding: 50px 0;
+}
+
+.banner-text {
+    width: 50%;
+    float: left;
+}
+
+.banner-text h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.banner-img {
+    width: 45%;
+    float: right;
+}
+
+.banner-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Button */
+.main-btn {
+    background: #2d5a27;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.main-btn:hover {
+    background: #1e3d1a;
+}
+
+/* Features Grid */
+.features {
+    padding: 40px 0;
+    background: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.box {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 40px 0 10px 0;
+    margin-top: 30px;
+}
+
+.footer-box {
+    width: 45%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+    clear: both;
+    text-align: center;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+}
+
+.login-section {
+    padding: 60px 0;
+    min-height: 400px;
+}
+
+.login-box {
+    width: 350px;
+    margin: 0 auto;
+    /* This centers the box */
+    background: #ffffff;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.my-input {
+    width: 93%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-btn {
+    width: 100%;
+    background: #2d5a27;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background: #1e3d1a;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.header {
+    overflow: hidden;
+}
